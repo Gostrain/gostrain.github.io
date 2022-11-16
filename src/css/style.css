@@ -1,0 +1,457 @@
+body{
+    font-family: Arial, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+32,1c1c1c+41,1c1c1c+43,1c1c1c+43,1c1c1c+48,04113b+54,0c52ad+100,050f4f+100 */
+background: rgb(0,0,0); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(0,0,0,1) 32%, rgba(28,28,28,1) 41%, rgba(28,28,28,1) 43%, rgba(28,28,28,1) 43%, rgba(28,28,28,1) 48%, rgba(4,17,59,1) 54%, rgba(12,82,173,1) 100%, rgba(5,15,79,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(0,0,0,1) 32%,rgba(28,28,28,1) 41%,rgba(28,28,28,1) 43%,rgba(28,28,28,1) 43%,rgba(28,28,28,1) 48%,rgba(4,17,59,1) 54%,rgba(12,82,173,1) 100%,rgba(5,15,79,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(0,0,0,1) 32%,rgba(28,28,28,1) 41%,rgba(28,28,28,1) 43%,rgba(28,28,28,1) 43%,rgba(28,28,28,1) 48%,rgba(4,17,59,1) 54%,rgba(12,82,173,1) 100%,rgba(5,15,79,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#050f4f',GradientType=1 ); /* IE6-9 */
+
+
+}
+
+.logo{
+    float: left;
+    color: #fff;
+    font-size: 40px;
+    line-height: 55px;
+    padding-left: 390px;
+}
+
+.menu{
+    float: left;
+    padding-left: 2000px;
+    
+}
+
+.menu li{
+    float: left;
+    font-size: 30px;
+    color: white;
+    line-height: 60px;
+    margin-right: 40px;
+    text-transform: uppercase;
+}
+
+.menu li a:visited{
+    color: white;
+}
+.logo{
+    float: left;
+    color: #fff;
+    font-size: 40px;
+    line-height: 55px;
+    padding-left: 390px;
+}
+
+.main{
+    width: 100%;
+    height: calc(100% - 55px);
+    background: url(../img/I.png) 110% 100%/auto 100% no-repeat, url(../img/fon.jpg) center/cover no-repeat;
+
+}
+.title__container{
+    float: left;
+    margin: 750px 0px 0px 550px;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px #fff;
+  
+}
+
+
+.title__container h1{
+    font-size: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.title__container h4{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.title__container input{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border: 3px solid #6d7682;
+    background: none;
+    text-shadow: 50px;
+    border-radius: 50px;
+    border-color: white;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 50px 20px 0px 20px;
+}
+
+
+.about_me {
+     width: 100%;
+    height: 1400px;
+    background: url(../img/fon2.jpg) center/cover no-repeat;
+     padding-top: 0px;
+     border-bottom: 1px dashed #000;
+}
+
+.about_me_container h2{
+   height: auto;
+    float:left;
+     padding-top: 100px;
+    padding-left: 275px;
+    width: 1000px;
+    font-size: 100px;
+    margin: 0px 0px 0px 0px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+
+.about_me_container{
+    width: 740px;
+    margin: 0 auto;
+}
+.about_me_container img{
+     40px;
+    padding-left: 125px;
+    padding-top: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.about_me_container p{
+    width: 2000px;
+    height: auto;
+    margin-top: 100px;
+    font-size: 40px;
+     
+}
+
+.about_me_container .secondText{
+    padding-left: 30px;
+     width: 2000px;
+    height: auto;
+    margin-top: 50px;
+   margin-bottom: 50px;
+    font-size: 30px
+}
+
+.about_me_container a{
+    margin-top: 50px;
+  margin-left: 350px;
+    padding: 10px;
+    font-size: 30px;
+     border: 1px solid #000;
+        border-radius: 10px;
+    text-shadow: 1px 1px 1px #000;
+    box-shadow: 1px 1px 1px #000;
+}
+
+.skills {
+    width: auto;
+    height: 1400px;
+     background: url(../img/fon3.jpg) center/cover no-repeat;
+     padding-top: 0px;
+    border-bottom: 1px dashed #000;
+}
+
+
+.skills_container h2{
+   
+     height: auto;
+    width: 100%;
+    padding-top: 150px;
+    padding-left: 1250px;
+    width: auto;
+    font-size: 100px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+
+
+
+.skills_container {
+    margin-bottom: 100px 0px 100px 0;
+    padding-left: 500px;
+    float:left;
+    width: 100%;
+    height: auto;
+    
+}
+.skills_item {
+   
+    font-size: 40px;
+  
+    float:left;
+    height: 700px; 
+    
+    width: 600px;
+    text-align: center;    
+}
+
+.skills_container h3{text-shadow: 1px 1px 1px #000;
+    border-bottom: 2px solid #000;
+    padding-top: 20px;
+    border-width: medium; 
+}
+
+.skills_container p {
+    margin-top: 50px;
+    
+}
+.clear {
+    clear:left
+}
+
+
+.Case { width: 100%;
+    height: 1400px;
+    background: url(../img/fon2.jpg) center/cover no-repeat;
+     padding-top: 0px;
+border-bottom: 1px dashed #000
+}
+
+.Case h2{ height: auto;
+    width: 100%;
+    padding-top: 150px;
+    padding-left: 1875px;
+    width: auto;
+    font-size: 100px;
+    padding-top: 40px;
+    padding-bottom: 5px;    
+}
+.Case h4{ height: auto;
+    width: 100%;
+    padding-top: 150px;
+    padding-left: 1400px;
+    width: auto;
+    font-size: 70px;
+    
+    padding-top: 40px;
+    padding-bottom: 5px;    
+}
+.Case .rimg {
+     width: 40%;
+    margin-left: 860px;
+    margin-top: 40px;
+}
+
+.reklama { width: 100%;
+   
+    padding-top: 100px;
+    padding-left: 1800px;
+    width: auto;
+    font-size: 100px;
+
+    padding-top: 150px;
+    padding-bottom: 0px;
+    
+}
+
+.reklama .vk{
+   background-color: blue;
+    color: white;
+    box-shadow: 2px 2px 10px #000;
+    border-radius: 30px;
+    margin-top: 40px;
+ margin-left: 45px;
+}
+
+.reklama .web{ 
+    text-align: center
+margin-right: 50px;
+   padding-right: 30px;
+  padding-bottom: 50px;
+     margin-left: 10px;
+}
+.price { border-bottom: 1px dashed #000;
+    border-top: 1px dashed #000;
+    width: 100%;
+    height: 1400px;
+    background: url(../img/fon3.jpg) center/cover no-repeat;
+     padding-top: 0px;}
+
+.myselect { border: 10px solid #000;
+    border-radius: 30px;
+    margin-left: 1600px;;
+    display: block;
+    width: 900px;
+font-size: 100px;
+    margin-top: 100px;
+     margin-bottom: 100px;
+    background-color: black;
+        color: white;
+    
+}
+.pricelist h3{ text-align: center;
+    font-size: 100px;ont-size: 100px;
+    margin-left: 250px;
+    margin-top: 40px;
+}
+.price h2{ font-size: 100px;ont-size: 100px;
+    margin-left: 1640px;
+    text-shadow: 2px 2px 2px;  
+}
+
+
+.results { width: 100%;
+    height: 1400px;
+    background: url(../img/fon2.jpg) center/cover no-repeat;
+     padding-top: 0px;}
+
+.rt {width: auto;
+  
+    margin-left: 1450px;
+  padding-top: 400px;
+    padding-right: 
+    display: block;
+    width: 900px;
+font-size: 100px;
+}
+
+.results th {
+   padding-left: 400px;
+    padding-top: 100 px
+}
+.results td {border-bottom: 10px solid #000;
+    border-radius: 20px;
+  }  
+
+.Statistics {width: 100%;
+    height: 1400px;
+    background: url(../img/fon3.jpg) center/cover no-repeat;
+     padding-top: 0px;
+border-bottom: 1px dashed #000;
+border-top: 1px dashed #000;}
+
+.Statistics h2{ height: auto;
+    width: 100%;
+    padding-left: 1750px;
+    width: auto;
+    font-size: 100px;
+   text-shadow: 1px 1px 1px #fff;
+    padding-top: 40px;
+    padding-bottom: 5px;    
+}
+
+.statistics_item { 
+    float: left;
+    width: auto;
+    text-align: center;
+    font-size: 30px;
+
+    margin-top: 350px;
+         padding-left: 550px;
+}
+.statistics_item img {
+    width: 300px;
+    height: 300px;
+}
+
+.statistics_item h3{
+    font-size: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 10px solid black;
+    border-radius: 50px;
+}
+
+.statistics_item p {border-bottom: 5px solid black}
+
+.Feedback { width: 100%;
+    height: 1400px;
+    background: url(../img/fon2.jpg) center/cover no-repeat;
+     padding-top: 0px;}
+
+
+.Feedback h2{ height: auto;
+    width: 100%;
+    padding-left: 1830px;
+    width: auto;
+    font-size: 100px;
+   text-shadow: 1px 1px 1px #fff;
+    padding-top: 40px;
+    padding-bottom: 5px;    
+}
+.Feedback img{border:10px solid black;
+    border-radius: 30px;
+    margin-left: 1300px;
+    margin-top: 50px;
+}
+
+.Feedback h3{
+    text-align: center;
+   padding-left:  200px;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.Feedback p{
+    text-align: center;
+   padding-left:  200px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.Feedback .o{
+    float: left;
+padding-left: 1965px;
+    margin-top: 100px;
+    font-size: 40px;
+ 
+}
+
+
+
+
+.end {width: 100%;
+    height: 390px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+32,1c1c1c+41,1c1c1c+43,1c1c1c+43,1c1c1c+48,04113b+54,0c52ad+100,050f4f+100 */
+background: rgb(0,0,0); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(0,0,0,1) 32%, rgba(28,28,28,1) 41%, rgba(28,28,28,1) 43%, rgba(28,28,28,1) 43%, rgba(28,28,28,1) 48%, rgba(4,17,59,1) 54%, rgba(12,82,173,1) 100%, rgba(5,15,79,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(0,0,0,1) 32%,rgba(28,28,28,1) 41%,rgba(28,28,28,1) 43%,rgba(28,28,28,1) 43%,rgba(28,28,28,1) 48%,rgba(4,17,59,1) 54%,rgba(12,82,173,1) 100%,rgba(5,15,79,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(0,0,0,1) 32%,rgba(28,28,28,1) 41%,rgba(28,28,28,1) 43%,rgba(28,28,28,1) 43%,rgba(28,28,28,1) 48%,rgba(4,17,59,1) 54%,rgba(12,82,173,1) 100%,rgba(5,15,79,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#050f4f',GradientType=1 ); /* IE6-9 */
+}
+
+.end {
+    font-size: 30px;
+    color: white;
+}
+.email {
+    padding-top:  40px;
+    float:left;
+    margin-left: 20px; 
+    font-size: 50px;
+        
+}
+.email_container {
+    float:left;
+        margin-right: 50px;
+}
+
+.sms {
+    padding-top: 40px;
+    margin-left: 3000px;
+    font-size: 50px;
+}
+
+.sms h2{margin-left: 40px}
+.sms input{
+    margin-left: 18px;
+    margin-top: 70px;
+   width: 165px;
+    height: 30px;
+    font-size: 30px;
+    height: 50px;
+    text-align: center;
+}
